@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\..\\Webprojekt OpenCampus"
+	},
+	{
+		"path": "..\\..\\..\\JavaScript OpenCampus"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Webprojekt OpenCampus"
+  }
+}

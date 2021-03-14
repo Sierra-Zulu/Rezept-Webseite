@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sören's Lieblingsrezept</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--
+      <link rel="stylesheet" href="css/navigation.css" />
+    -->
+    <!--<script src="js/javascript.js"></script>-->
+  </head>
+  <body>
+    <header>
+      <!--Stichworte: Torte, Marzipan, grün, Geburtstagstorte, Biskuitboden, Himbeeren, Sahne,-->
+      <h1>Schwedische Prinzessin Torte</h1>
+      <h2>Traditionelle Geburtstagstorte mit grüner Marzipandecke</h2>
+
+      <!--Das bild soll noch in die Mitte, klappt aber nicht :-(-->
+      <img
+        id="hauptbild"
+        title="Schwedische Prinzessin Torte"
+        alt="die schwedische Geburtstagstore hat eine grüne Marzipandecke und ist mit Puderzucker bestäubt"
+        src="imgs/prinzessin-torte-hauptbild.jpg"
+      />
+      <!--die Weite des Bildes soll sich am Display orientieren-->
+    </header>
+    <!--Das Navi muss noch gestaltet werden-->
+    <nav>
+      <a href="index.html">Startseite</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="kontakt.html">kontakt</a>
+    </nav>
+    <article>
+      <h3 id="inhalt">Inhaltsverzeichnis</h3>
+      <ol>
+        <li><a href="#zutaten">Zutaten und Einkaufsliste</a></li>
+        <li><a href="#anleitung">Anleitung zum Backen und Herstellen</a></li>
+        <li><a href="#hintergund">Hintergrund</a></li>
+      </ol>
+      <p>
+        Mein <em>Lieblingsrezept</em> stammt aus Schweden und ist für
+        <strong>eine Geburtstagstorte mit grüner Marzipandecke</strong>, was
+        lustig ist und lecker aussieht. Diese Torte heißt in Schweden
+        "Prinzessin Torte", warum erkläre ich
+        <a href="#hintergrund">unten auf dieser Seite</a>.
+      </p>
+      <!--Das Vorschaubild soll über CSS gestylt werden-->
+      <a
+        href="imgs/prinzessin-torte-schichten.jpg"
+        target="_blank"
+        rel="nofollow"
+      >
+        <img
+          class="vorschau"
+          title="Die Schichten einer Prinzessin torte im Detail"
+          alt="faszinierender Schichtaufbau im Innenleben einer Prinzess Torte"
+          src="imgs/prinzessin-torte-schichten-small.jpg"
+        />
+      </a>
+      <p><i>Zum Vergrößern auf das Bild rechts klicken</i></p>
+      <p>
+        Das Vergnügen beim Genuss einer schwedischen Prinzessintorte sind die
+        verschiedenen Füllungen aus Obst/Marmelade, Vanillepudding und Sahne,
+        welche durch einen lockeren Biskuitboden unterteilt sind. Auf dem Teller
+        kann jeder Gast nach Belieben die verschiedenen Elemente einzeln oder
+        zusammen genießen. Bei der Obstschicht verwende ich gerne Himbeeren
+        zusammen mit Himbeermarmelade. Das macht die Torte noch etwas
+        fruchtiger. <br />
+        Für die Dekoration ist es wichig eine grüne Marzipandecke zu nutzen.
+        Marzipan in Originalfarbe schmeckt auch lecker, aber sieht nach Oma und
+        nicht nach Prinzessin aus. <br />
+        Durch die grüne Farbe bekommt die Torte einen Frühlingscharakter, was
+        meiner Meinung nach wunderbar zum Geburtstag passt. Ich dekoriere
+        entweder mit Marzipanrosen aus den Resten der Decke oder mit fertigen
+        Deko-Elemente, die es im Backregal des Supermarkt zu kaufen gibt.
+        Geburstagskerzen passen auch prima auf die Torte.<br />
+        Grüne Marzipandecken gibt es in jedem schwedischen Supermarkt. Also beim
+        nächsten Urlaub mitbringen (lassen).
+      </p>
+      <hr />
+      <h3 id="zutaten">Zutaten und Einkaufliste</h3>
+      <p>
+        Folgende Zutaten werden für Teig, Füllungen, Marzipandecke und
+        Dekoration benötigt:
+      </p>
+      <h4>Für den Biskuitboden</h4>
+      <table id="zutaten-boden">
+        <tr>
+          <td class="tab-links">4</td>
+          <td>Eier</td>
+        </tr>
+        <tr>
+          <td class="tab-links">4 EL</td>
+          <td>heißes Wasser</td>
+        </tr>
+        <tr>
+          <td class="tab-links">100 g</td>
+          <td>Zucker</td>
+        </tr>
+        <tr>
+          <td class="tab-links">1 Prise</td>
+          <td>Salz</td>
+        </tr>
+        <tr>
+          <td class="tab-links">50 g</td>
+          <td>Speisestärke</td>
+        </tr>
+        <tr>
+          <td class="tab-links">100 g</td>
+          <td>Mehl</td>
+        </tr>
+        <tr>
+          <td class="tab-links">1 TL</td>
+          <td>Backpulver</td>
+        </tr>
+        <tr>
+          <td class="tab-links">100 g</td>
+          <td>gemahlene Mandeln</td>
+        </tr>
+        <tr>
+          <td class="tab-links">3 Tropf.</td>
+          <td>Bittermandelaroma</td>
+        </tr>
+      </table>
+      <h4>Für die Füllung</h4>
+      <table id="zutaten-fuellung">
+        <tr>
+          <td class="tab-links">250 g</td>
+          <td>Himbeeren</td>
+        </tr>
+        <tr>
+          <td class="tab-links">4 EL</td>
+          <td>Himbeermarmelade</td>
+        </tr>
+        <tr>
+          <td class="tab-links">1 Port.</td>
+          <td>selbst gekocher Vanillepudding</td>
+        </tr>
+        <tr>
+          <td class="tab-links">200 g</td>
+          <td>Schlagsahne</td>
+        </tr>
+        <tr>
+          <td class="tab-links">1 TL</td>
+          <td>echter Vanillezucker</td>
+        </tr>
+        <tr>
+          <td class="tab-links">1 TL</td>
+          <td>Sahnesteif</td>
+        </tr>
+      </table>
+      <h4>Für die Decke aus Marzipan</h4>
+      <table id="zutaten-decke">
+        <tr>
+          <td class="tab-links">Eine</td>
+          <td>fertige Marzipandecke <i>oder</i></td>
+        </tr>
+        <tr>
+          <td class="tab-links">300 g</td>
+          <td>Marzipanrohmasse</td>
+        </tr>
+        <tr>
+          <td class="tab-links">Tube</td>
+          <td>grüne Lebensmittelfarbe</td>
+        </tr>
+      </table>
+      <h4>als Dekoration</h4>
+      <table id="zutaten-deko">
+        <tr>
+          <td class="tab-links">2 EL</td>
+          <td>Puderzucker</td>
+        </tr>
+        <tr>
+          <td class="tab-links">2 - 3</td>
+          <td>Marzipanblumen</td>
+        </tr>
+      </table>
+
+      <h3 id="anleitung">Anleitung zum Backen einer Prinzessin Torte</h3>
+      <p>
+        Ich werde jetzt kurz beschreiben, wie diese Torte hergestellt wird. Auf
+        Details wie Puddingkochen und Biskuitboden backen gehe ich in ein
+        anderes Mal ein.
+      </p>
+      <p>
+        Als Vorbereitung wird ein Biskuitboden gebacken und Vanillepudding (eine
+        Packung Puddingpulver für 500ml Milch) gekocht. Beides muss für ca. 1
+        Stunde abkühlen.
+      </p>
+      <p>
+        Der fertig gebackene Biskuitboden wird mit einem langen Messer
+        vorsichtig in drei Ebenen geschnitten. Dabei darf der unterste Boden
+        etwas stärker sein. Wichtig ist, die Schnitte schön gleichmäßig zu
+        machen. Sonst wird die Torte schief und das mag kein Prinzessin. <br />
+      </p>
+      <p>
+        Jetzt kommt der spannende Part und ich empfehle schonmal ein Blick auf
+        die Bilderstrecke unten. Auf den ersten Boden kommt die
+        Himbeermarmelade, welche mit den frischen Himbeeren bedeckt wird. Das
+        ganz mit Pudding glatt streichen. Dabei darf in der Mitte ein Hügel
+        entstehen. So kommt die Halbkugelform der Torte zur Entfaltung. <br />
+        Jetzt der mittlere Boden und dann Pudding unten und Sahne darüber. Außen
+        mit einem Kuchenmesser glatt streichen. Zum Schluss den dritten Boden
+        auf der Sahne platzieren. Hier wird es erfahrungsgemäß rutschig. Wer
+        sehr feste Sahne hat, kann das leichter zusammen bauen.
+      </p>
+      <p>
+        Als letzter Schritt wird eine grüne Marzipandecke über die Torte gelegt,
+        ausgeschnitten und mit den Händen angeformt. Durch die an der Seite
+        herausquellende Sahne, klebt die Marzipandecke fest.
+      </p>
+
+      <!--Schritt für Schritt Bilderanleitung-->
+      <img
+        class="slider"
+        title="Biskuitboden für die Prinzesstorte mit einem Messer aufschneiden"
+        alt="Der Bäcker schneidet den Bisquitboden in Schichten"
+        src="imgs/how2prinzessin-torte-1.jpg"
+      />
+      <img
+        class="slider"
+        title="Schichten aus Pudding, Marmelade und Sahne"
+        alt="Zwischen die Böden gehören Schichten aus Marmelade, Früchten, Pudding und Sahne "
+        src="imgs/how2prinzessin-torte-2.jpg"
+      />
+      <img
+        class="slider"
+        title="Pudding aus dem Spritzbeutel"
+        style="float: left; margin: 5px"
+        alt="Gleichmäßig wird der Pudding mit dem Spritzbeutel verteilt"
+        src="imgs/how2prinzessin-torte-3.jpg"
+      />
+      <img
+        class="slider"
+        title="Die oberste Füllung besteht aus Sahne"
+        alt="Auch die geschlagene Sahne wird mit einem Spritzbeutel verteilt"
+        src="imgs/how2prinzessin-torte-4.jpg"
+      />
+      <img
+        class="slider"
+        title="Deckel aus Biskuitboden"
+        alt="Die Torte erhält als Deckel eine Schicht des Biskuitboden"
+        src="imgs/how2prinzessin-torte-5.jpg"
+      />
+      <img
+        class="slider"
+        title="Decke aus grünen Marzipan"
+        alt="Die grüne Marzipandecke gibt der Torte das unverwechselbare Aussehen"
+        src="imgs/how2prinzessin-torte-6.jpg"
+      />
+      <img
+        class="slider"
+        title="Marzipandecke mit den Händen formen"
+        alt="Mit den Händen wird die Marzipandecke an die Torte(nschichten) angeformt"
+        src="imgs/how2prinzessin-torte-7.jpg"
+      />
+      <img
+        class="slider"
+        title="Gut eingehällt in Marzipan"
+        alt="Halbkugelform der Prinzesstorte mit grüner Marzipanschicht"
+        src="imgs/how2prinzessin-torte-8.jpg"
+      />
+      <img
+        class="slider"
+        title="Puderzucker on top"
+        alt="Mit Puderzucker wird die Torte bestäubt"
+        src="imgs/how2prinzessin-torte-9.jpg"
+      />
+      <img
+        class="slider"
+        title="Prinzessin Torte fertig"
+        alt="Die fertige Prinzessin Torte sieht sehr lecker aus"
+        src="imgs/how2prinzessin-torte-10.jpg"
+      />
+      <hr />
+      <h3 id="hintergrund">Idee dieser Torte</h3>
+      <h4>Auszug aus dem Blog "Semi-Swede"</h4>
+      <p>
+        Jenny Åkerström wird als Urheberin des Rezeptes genannt. Åkerström war
+        zu Beginn des 20. Jahrhunderts ein schwedischer Hauswirtschaftsguru und
+        war sogar Ausbilderin der drei schwedischen Prinzessinnen Margaretha,
+        Märtha und Astrid, Töchter von Prinz Carl (Bruder von König Gustaf V.).
+        Sie veröffentlichte eine vierbändige Kochbuchreihe mit dem Titel
+        Prinsessornas Kokbok: Husmanskost och Helgdagsmat
+        (Prinzessinnen-Kochbuch: Hausmannskost und Ferienessen). Die erste
+        Ausgabe erschien 1929 mit den Porträts der Prinzessin auf dem Einband.
+        Mit ihrem großen Erfolg kamen bis 1952 achtzehn Nachdrucke mit
+        Überarbeitungen auf den Markt.<br />
+        Ich konnte keine endgültigen Informationen darüber finden, warum die
+        Bücher die Prinzessinnen-Kochbücher genannt wurden oder warum die
+        Prinzessinnen damit einverstanden waren, ihre Bilder auf dem Einband zu
+        haben, außer der Tatsache, dass Jenny Åkerström ihre Lehrerin war und
+        die Prinzessinnen als Vorbilder angesehen wurden. Zu ihrer Ausbildung
+        gehörten Kinderbetreuung und Kochen, was zu jener Zeit innovativ war. In
+        einem feministischen Sinne hob die formale häusliche Ausbildung die
+        Professionalität hervor, die für die Leitung eines Hauses und der Kinder
+        erforderlich war. Vielleicht ist die "Hausprinzessin" die Vorläuferin
+        des heutigen hohen Status einer "Hausgöttin". <br />Da mir die
+        Ursachenforschung am Herzen liegt, konnte ich nicht widerstehen, ins
+        Internet zu gehen und eine erste Ausgabe der Prinsessornas Kokbok zu
+        finden. Jetzt bin ich stolzer Besitzer eines schönen, alten Kochbuchs
+        und kann definitiv berichten, dass die Originalausgabe kein Rezept für
+        einen Kuchen wie die heute so beliebte Prinsesstårta enthält. Deshalb
+        habe ich die Hilfe von hembakningsrådet (dem schwedischen Hausfrauenrat)
+        in Anspruch genommen, der Zugang zu mehreren Ausgaben der Prinsessornas
+        Kokboks hatte. Das Rezept erscheint nicht in den Ausgaben von 1937, 1945
+        oder 1952, aber es IST ein Rezept für Grön Tårta (grüner Kuchen) in der
+        Ausgabe von 1948, und hembakningsrådet bestätigte, dass es sich um das
+        Prinsesstårta-Rezept handelt, wie wir es heute kennen. Aus welchem Grund
+        auch immer wurde das Rezept aus der Ausgabe von 1952 gestrichen, aber
+        der Name Grön Tårta erklärt die grüne Farbe. <br />Was den Namen
+        prinsesstårta betrifft, so ist er sicherlich ansprechender als "grüner
+        Kuchen". Der offizielle schwedische Bäckerverband (Sveriges bagare och
+        konditorier) gibt an, dass der Kuchen den Namen prinsesstårta erhielt,
+        weil die Prinzessinnen den Kuchen so sehr liebten. Und sie waren nicht
+        allein. In Schweden und Finnland wurde die Torte schnell populär. Jedes
+        Jahr werden in Schweden rund 500.000 prinsesstårtas verkauft. Die dritte
+        Woche im September ist offiziell die prinsesstårta-Woche. Für jede in
+        diesem Zeitraum in Schweden gekaufte prinsesstårta werden 10SEK an den
+        Fonds der Kronprinzessin Victoria gespendet, der chronisch kranken und
+        behinderten Kindern und Jugendlichen in Schweden zugute kommt.
+        Prinsesstårtas, die mit einer Goldkrone gekrönt sind, sind Teil der
+        Spendenaktion.
+      </p>
+    </article>
+    <footer>
+      <p>Danke an Basti für die Hausaufgabe und das Internet für die Hilfe.</p>
+      <!--link to top-->
+    </footer>
+  </body>
+</html>
